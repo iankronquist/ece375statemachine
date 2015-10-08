@@ -1,0 +1,12 @@
+MAR <- MDR
+TEMP <- MAR
+MDR <- M(MAR)
+MAR <- MDR
+AC <- MAR
+MDR <- M(MAR)
+MAR <- TEMP
+AC <- AC + 1
+TEMP <- AC
+AC <- MDR
+MDR <- TEMP
+M(MAR) <- MDR
